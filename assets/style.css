@@ -307,3 +307,5 @@ footer{background:var(--ink);color:#cfc2a5}
 .vh{font-size:clamp(34px,4vw,52px);color:#fff;margin:0 0 22px}
 @media (max-width:1100px){.vgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:640px){.vids{padding:84px 0}.vgrid{grid-template-columns:minmax(0,1fr);max-width:340px}.vgrid.g{margin-bottom:40px}}
+@media (max-width:640px){.card .btn.fill,.pk-info .btn{width:100%;align-self:stretch}.foot .fl small{letter-spacing:.2em}}
+@media (max-width:1100px){.gp-grid a:last-child{grid-column:span 2}}
