@@ -309,3 +309,12 @@ footer{background:var(--ink);color:#cfc2a5}
 @media (max-width:640px){.vids{padding:84px 0}.vgrid{grid-template-columns:minmax(0,1fr);max-width:340px}.vgrid.g{margin-bottom:40px}}
 @media (max-width:640px){.card .btn.fill,.pk-info .btn{width:100%;align-self:stretch}.foot .fl small{letter-spacing:.2em}}
 @media (max-width:1100px){.gp-grid a:last-child{grid-column:span 2}}
+.menu .btn{white-space:nowrap}
+.hero .hc{max-width:760px}
+.hero h1{font-size:clamp(60px,8vw,112px)}
+.hero h1 em{white-space:nowrap}
+@media (max-width:640px){.hero h1{font-size:clamp(54px,16vw,80px)}.hero h1 em{white-space:normal}}
+.hero h1 em{white-space:normal}
+.hero .hc{max-width:700px}
+.hero h1{font-size:clamp(60px,7vw,100px)}
+@media (max-width:640px){.hero h1{font-size:clamp(54px,16vw,80px)}}
